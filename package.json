@@ -1,28 +1,18 @@
 {
-  "name": "css-has",
-  "version": "1.0.0",
-  "description": "Has css examples",
+  "name": "css-has-ts",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "lit": "^3.1.4"
+  },
   "devDependencies": {
+    "typescript": "^5.2.2",
     "vite": "^5.3.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nacho-test-developer/css-has.git"
-  },
-  "keywords": [
-    "css",
-    "has"
-  ],
-  "author": "yoelnacho",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nacho-test-developer/css-has/issues"
-  },
-  "homepage": "https://github.com/nacho-test-developer/css-has#readme"
+  }
 }
